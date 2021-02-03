@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import { LoggerService } from './logger.service';
-import { UserContextService } from './user-context.service';
+import { LoggerService } from './core/services/logger.service';
+import { UserContextService } from './core/services/user-context.service';
 
 @Component({
   selector: 'app-root',

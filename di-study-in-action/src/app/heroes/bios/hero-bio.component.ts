@@ -1,6 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
 
-import { HeroCacheService } from './hero-cache.service';
+import { HeroCacheService } from '../../core/services/hero-cache.service';
 
 @Component({
   selector: 'app-hero-bio',
