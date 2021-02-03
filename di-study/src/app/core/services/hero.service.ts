@@ -1,6 +1,6 @@
 import { Injectable, Optional } from '@angular/core';
-import { Logger } from '../logger.service';
-import { HEROES } from './mock-heroes';
+import { Logger } from './logger.service';
+import { HEROES } from '../models/mock-heroes';
 
 /**
  * 서비스의 인스턴스를 생성 및 클래스에 주입하는 역할을 Injector가 한다.
