@@ -6,6 +6,7 @@ import { HeroBiosComponent } from './bios/hero-bios.component';
 import { HeroBiosAndContactsComponent } from './hero-bios-and-contacts.component';
 import { HeroContactComponent } from './contacts/hero-contact.component';
 import { SharedModule } from '../shared/shared.module';
+import { HeroOfTheMonthComponent } from './month/hero-of-the-month.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { SharedModule } from '../shared/shared.module';
     HeroBioComponent,
     HeroBiosComponent,
     HeroContactComponent,
-    HeroBiosAndContactsComponent
+    HeroBiosAndContactsComponent,
+    HeroOfTheMonthComponent
   ],
   imports: [
     SharedModule,
@@ -23,7 +25,8 @@ import { SharedModule } from '../shared/shared.module';
     HeroesBaseComponent,
     SortedHeroesComponent,
     HeroBiosComponent,
-    HeroBiosAndContactsComponent
+    HeroBiosAndContactsComponent,
+    HeroOfTheMonthComponent
   ]
 })
 export class HeroesModule { }

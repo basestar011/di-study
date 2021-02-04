@@ -19,7 +19,8 @@ import { HighlightDirective } from './directives/highlight.directive';
     CommonModule,
     BrowserModule,
     FormsModule,
-    StorageComponent
+    StorageComponent,
+    HighlightDirective
   ]
 })
 export class SharedModule { }

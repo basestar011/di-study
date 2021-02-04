@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Hero } from '../core/models/hero';
-import { HeroService } from '../core/services/hero.service';
+import { HeroService } from '../core/services/hero/hero.service';
 
 @Component({
     selector: 'app-unsorted-heroes',

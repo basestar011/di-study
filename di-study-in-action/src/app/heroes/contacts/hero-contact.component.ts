@@ -1,6 +1,6 @@
 import { Component, Host, Optional } from '@angular/core';
-import { HeroCacheService } from 'src/app/core/services/hero-cache.service';
-import { LoggerService } from 'src/app/core/services/logger.service';
+import { HeroCacheService } from 'src/app/core/services/hero/hero-cache.service';
+import { LoggerService } from 'src/app/core/services/logger/logger.service';
 
 @Component({
     selector: 'app-hero-contact',

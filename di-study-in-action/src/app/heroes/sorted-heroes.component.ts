@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 
-import { HeroService } from '../core/services/hero.service';
+import { HeroService } from '../core/services/hero/hero.service';
 import { HeroesBaseComponent } from './unsorted-heroes.component';
 
 @Component({
