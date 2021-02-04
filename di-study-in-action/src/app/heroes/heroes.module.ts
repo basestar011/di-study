@@ -1,12 +1,11 @@
 import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
 import { HeroesBaseComponent } from './unsorted-heroes.component';
 import { SortedHeroesComponent } from './sorted-heroes.component';
 import { HeroBioComponent } from './bios/hero-bio.component';
 import { HeroBiosComponent } from './bios/hero-bios.component';
 import { HeroBiosAndContactsComponent } from './hero-bios-and-contacts.component';
-import { FormsModule } from '@angular/forms';
 import { HeroContactComponent } from './contacts/hero-contact.component';
+import { SharedModule } from '../shared/shared.module';
 
 @NgModule({
   declarations: [
@@ -18,8 +17,7 @@ import { HeroContactComponent } from './contacts/hero-contact.component';
     HeroBiosAndContactsComponent
   ],
   imports: [
-    CommonModule,
-    FormsModule
+    SharedModule,
   ],
   exports: [
     HeroesBaseComponent,
