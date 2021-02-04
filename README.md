@@ -21,4 +21,4 @@
 - 트리 셰이킹 대상이 될 수 있는 프로바이더
 
 [di-study-in-action project]
-3. Dependency-Injection-in-action.md - 실전 의존성 주입
+1. Dependency-Injection-in-action.md - 실전 의존성 주입
