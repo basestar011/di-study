@@ -22,3 +22,12 @@
 
 [di-study-in-action project]
 1. Dependency-Injection-in-action.md - 실전 의존성 주입
+- 중첩된 서비스 의존성  
+- 서비스 주입 범위 제한  
+- 같은 계층의 컴포넌트 마다 서비스 인스턴스 유지하기  
+- Parameter Decorators  
+- Parameter Decorator의 종류  
+- 커스텀 프로바이더 주입  
+- @Self(), @SkipSelf() Decorator  
+- 커스텀 Directive 클래스에서 컴포넌트의 DOM 엘리먼트 주입  
+- 프로바이더 정의  
