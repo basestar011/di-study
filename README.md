@@ -31,3 +31,6 @@
 - @Self(), @SkipSelf() Decorator  
 - 커스텀 Directive 클래스에서 컴포넌트의 DOM 엘리먼트 주입  
 - 프로바이더 정의  
+- 프로바이더 토큰  
+- 상속된 클래스로 의존성 주입  
+- forwardRef 순환참조 해결  
