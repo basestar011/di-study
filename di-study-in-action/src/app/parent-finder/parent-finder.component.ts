@@ -72,8 +72,8 @@ const templateB = `
       <h3>{{name}}</h3>
       <p>My parent is {{parent?.name}}</p>
     </div>
-    <carol></carol>
-    <chris></chris>
+    <app-carol></app-carol>
+    <app-chris></app-chris>
   </div>`;
 
 @Component({
@@ -99,7 +99,7 @@ export class BobComponent implements Parent {
 @Component({
   selector: 'app-beth',
   template: templateB,
-  providers: [ provideParent(BethComponent, DifferentParent) ]
+  providers: [ provideParent(BethComponent, Base) ]
 })
 export class BethComponent implements Parent {
   name = 'Beth';
@@ -158,5 +158,6 @@ export class CathyComponent {
 @Component({
   selector: 'app-parent-finder',
   templateUrl: './parent-finder.component.html',
+  styleUrls: ['./parent-finder.component.css']
 })
 export class ParentFinderComponent { }
